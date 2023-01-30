@@ -1,3 +1,5 @@
 1) If put more than one element one next to another, need to wrap in React fragment
 
 2) In react, when you use a function that starts with "use", it is called "hook"
+
+3) never modify/ mutate state manually
