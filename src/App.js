@@ -7,23 +7,14 @@ import MovieCard from './MovieCard';
 
 const API_URL = 'http://www.omdbapi.com?apikey=e6464271'
 
-const movie1 = {
-    "Title": "Italian Spiderman",
-    "Year": "2007",
-    "imdbID": "tt2705436",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BYjFhN2RjZTctMzA2Ni00NzE2LWJmYjMtNDAyYTllOTkyMmY3XkEyXkFqcGdeQXVyNTA0OTU0OTQ@._V1_SX300.jpg"
-}
-
 const App = () =>{
     const [movies, setMovies] = useState([]);
+    const [searchTerm, setSearchTerm] = useState([]);
 
     const searchMovies = async (title) =>{
         const response = await fetch(`${API_URL}&s=${title}`);
         const data = await response.json();
-
         setMovies(data.Search);
-        console.log(data.Search);
     }
 
     useEffect(() =>{
@@ -35,8 +26,8 @@ const App = () =>{
             <h1>MovieLand</h1>
 
             <div className='search'>
-                <input placeholder='Search for movies' value='Superman' onChange={()=>{}}/>
-                <img src={SearchIcon} alt="search" onClick={()=>{}}/>
+                <input placeholder='Search for movies' value={searchTerm} onChange={(e)=>setSearchTerm(e.target.value)}/>
+                <img src={SearchIcon} alt="search" onClick={()=>searchMovies(searchTerm)}/>
             </div>
 
             {
