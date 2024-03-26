@@ -1,0 +1,5 @@
+26/3/2024
+1) node_modules - contains external libraries
+2) contains public stuff
+3) stuff in public folder usually is from url, and src is compiled during runtime.
+4) You can put components inside fragment <> </> to have them all returned
