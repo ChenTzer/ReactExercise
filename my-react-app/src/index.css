@@ -63,3 +63,27 @@
   border-radius: 5px;
   margin: 0;
 }
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: lightpink;
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: gray;
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover{
+  color: blue;
+  cursor: pointer;
+}
