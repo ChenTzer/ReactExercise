@@ -5,11 +5,15 @@ function Lesson8Counter(){
     const [count, setCount] = useState(0);
 
     const increment = () => {
-        setCount(count + 1);
+        setCount(c => c + 1);
+        setCount(c => c + 1);
+        setCount(c => c + 1);
     }
 
     const decrement = () =>{
-        setCount(count -1);
+        setCount(c => c -1);
+        setCount(c => c -1);
+        setCount(c => c -1);
     }
 
     const reset = () => {

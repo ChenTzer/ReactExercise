@@ -1,9 +1,9 @@
-import ColorPicker from "./ColorPicker";
+import Lesson8Counter from "./Lesson8Counter";
 
 function App() {
 
   return (
-      <ColorPicker></ColorPicker>
+      <Lesson8Counter></Lesson8Counter>
   );
 
 }
