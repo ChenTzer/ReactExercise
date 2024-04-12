@@ -1,9 +1,9 @@
-import Lesson13MyComponent from "./Lesson13MyComponent";
+import Lesson14MyComponent from "./Lesson14MyComponent";
 
 function App() {
 
   return (
-      <Lesson13MyComponent></Lesson13MyComponent>
+      <Lesson14MyComponent></Lesson14MyComponent>
   );
 
 }
