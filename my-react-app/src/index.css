@@ -240,7 +240,7 @@ li{
   margin-left: 10px;
 }
 
-body{
+/* body{
   background-image: url(assets/YoruNiKakeru.jpeg);
   background-position: center;
   background-repeat: no-repeat;
@@ -248,7 +248,7 @@ body{
   background-attachment: fixed;
   background-color: rgb(250, 103, 125);
   margin: 0;
-}
+} */
 
 .clock-container{
   backdrop-filter: blur(1px);
@@ -264,4 +264,9 @@ body{
   text-align: center;
   text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.5);
   
+}
+
+.box{
+  border: 3px solid;
+  padding: 25px;
 }
