@@ -1,9 +1,9 @@
-import Lesson16Part2MyComponent from "./Lesson16Part2MyComponent";
+import DigitalClock from "./DigitalClock";
 
 function App() {
 
   return (
-      <Lesson16Part2MyComponent></Lesson16Part2MyComponent>
+    <DigitalClock></DigitalClock>
   );
 
 }

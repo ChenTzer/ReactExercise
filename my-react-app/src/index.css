@@ -239,3 +239,29 @@ li{
   font-size: 1.4rem;
   margin-left: 10px;
 }
+
+body{
+  background-image: url(assets/YoruNiKakeru.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-color: rgb(250, 103, 125);
+  margin: 0;
+}
+
+.clock-container{
+  backdrop-filter: blur(1px);
+  width: 100vw;
+  padding: 10px 0;
+}
+
+.clock{
+  color: hsl(222, 64%, 23%);
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.5);
+  
+}
