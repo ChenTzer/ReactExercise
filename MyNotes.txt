@@ -19,3 +19,8 @@ useEffect(() => {}, [value]) //Runs on mount + when value changes
 3) Subscriptions (real-time updates)
 4) Fetching Data from an API
 5) Clean up whena a component unmounts
+
+14/3/2024
+Lesson 19 - useRef()
+
+does not re-render the website (useState does)
