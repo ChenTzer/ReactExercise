@@ -1,10 +1,10 @@
 import React from 'react';
-import Lesson19MyComponent from './Lesson19MyComponent';
+import Stopwatch from './Stopwatch';
 
 function App() {
 
   return (
-    <Lesson19MyComponent></Lesson19MyComponent>
+    <Stopwatch></Stopwatch>
   );
 
 }

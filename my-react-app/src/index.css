@@ -270,3 +270,66 @@ li{
   border: 3px solid;
   padding: 25px;
 }
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius:  50px;
+  background-color: white;
+  padding: 30px;
+}
+
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 25px;
+}
+
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: backgroud-color 0.5s ease;
+}
+
+.start-button{
+  background-color: green;
+}
+
+.start-button:hover{
+  background-color: lightgreen;
+}
+
+.stop-button{
+  background-color: red;
+}
+
+.stop-button:hover{
+  background-color: lightcoral;
+}
+
+.reset-button{
+  background-color: blue;
+}
+
+.reset-button:hover{
+  background-color: lightblue;
+}
